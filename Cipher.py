@@ -40,3 +40,7 @@ elif option=='D' or option=='d':
 	print (decrypted)
 else:
 	print('Wrong input. Bye.')
+outfile=open('output.txt','r')
+outcontent=outfile.read()
+outfile.close
+print(outcontent)
